@@ -182,6 +182,99 @@
     
     
     <article
+  id="post-categories/index"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2022/02/15/categories/index/"
+    >Python基础</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2022/02/15/categories/index/" class="article-date">
+  <time datetime="2022-02-15T05:35:46.229Z" itemprop="datePublished">2022-02-15</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h3 id="常用函数"><a href="#常用函数" class="headerlink" title="常用函数"></a>常用函数</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">eval() 去除最外层引号，也可以在此函数内部进行 数字运算</span><br><span class="line">complex() 用来生成复数</span><br><span class="line">abs() 绝对值计算</span><br><span class="line">divmod() 同时计算两个数字的整数商和余数</span><br><span class="line">pow() 计算幂，第一个参数为底数，第二个参数为指数</span><br><span class="line">round() 进行四舍五入</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="字符串常用方法"><a href="#字符串常用方法" class="headerlink" title="字符串常用方法"></a>字符串常用方法</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">str.format() 字符串格式化</span><br><span class="line">str.count() 计算算该字符出现的次数</span><br><span class="line">str.index() 查询字符第一次出现的索引</span><br><span class="line">str.capitalize() 首字母大写</span><br><span class="line">str.title() 每个单词的首字母大写</span><br><span class="line">str.lower() 将字符串中所有的大写转换为小写</span><br><span class="line">str.upper() 将string中小写字母转换为大写</span><br><span class="line">str.swapcase() 将string字母大小写翻转</span><br><span class="line">str.split() 分割字符串，默认空格分割</span><br><span class="line">str.replace(old,new) 将old字符串替换为new</span><br><span class="line">str.center(width,fillchar) 第一个参数为返回指定的字符长度。第二个参数为使用指定字符填充</span><br><span class="line">str.strip(chars) 删除str字符串中指定的参数</span><br><span class="line">str.join() 使用指定字符串拼接</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">try:</span><br><span class="line">    正常要处理的代码块</span><br><span class="line">except：</span><br><span class="line">    出现异常执行的代码块</span><br><span class="line">else:</span><br><span class="line">    没有异常执行的代码块</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
+
+<h3 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">注意：元组一旦创建就不能再改动，当元组内仅有一个元素时，需在元素后加一个逗号&quot;,&quot;</span><br><span class="line">元组的索引：元组名[index]</span><br></pre></td></tr></table></figure>
+
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><table>
+<thead>
+<tr>
+<th>增加</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>[].insert(索引，元素)    在指定位置插入元素</td>
+</tr>
+<tr>
+<td>[].append(元素)   在末尾追加元素</td>
+</tr>
+<tr>
+<td>[].extend(列表2)    将列表2追加到原列表后</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>删除</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>[].remore(元素)       删除第一个出现的指定元素</td>
+</tr>
+<tr>
+<td>[].pop(index)           默认删除末尾元素，由index指定删除索引元素</td>
+</tr>
+<tr>
+<td>[].clear()                    清空列表</td>
+</tr>
+<tr>
+<td>del 列表[索引]           删除指定索引元素</td>
+</tr>
+<tr>
+<td>列表[索引] &#x3D; 元素      修改指定索引的元素</td>
+</tr>
+</tbody></table>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-Git/index"
   class="article article-type-post"
   itemscope
@@ -429,27 +522,27 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
+      <a class="nav-item-link" href="/archives">综合</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
+      <a class="nav-item-link" href="/categories">Python</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
+      <a class="nav-item-link" href="/tags">Java</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
+      <a class="nav-item-link" target="_blank" rel="noopener" href="https://www.runoob.com/">菜鸟教程</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+      <a class="nav-item-link" href="/datas">大数据</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
+      <a class="nav-item-link" href="/projects">项目记录</a>
     </li>
     
   </ul>
