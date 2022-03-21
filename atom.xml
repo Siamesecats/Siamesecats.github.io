@@ -6,7 +6,7 @@
   <link href="https://example.com/atom.xml" rel="self"/>
   
   <link href="https://example.com/"/>
-  <updated>2022-03-02T03:47:42.520Z</updated>
+  <updated>2022-03-20T09:37:29.999Z</updated>
   <id>https://example.com/</id>
   
   <author>
@@ -15,6 +15,114 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>概率论</title>
+    <link href="https://example.com/2022/03/20/probability/index/"/>
+    <id>https://example.com/2022/03/20/probability/index/</id>
+    <published>2022-03-20T09:36:31.801Z</published>
+    <updated>2022-03-20T09:37:29.999Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;hello&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理基础</title>
+    <link href="https://example.com/2022/03/20/basicas/index/"/>
+    <id>https://example.com/2022/03/20/basicas/index/</id>
+    <published>2022-03-20T09:32:21.227Z</published>
+    <updated>2022-03-20T09:34:47.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;hello&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>R语言基础</title>
+    <link href="https://example.com/2022/03/20/R/index/"/>
+    <id>https://example.com/2022/03/20/R/index/</id>
+    <published>2022-03-20T02:35:46.000Z</published>
+    <updated>2022-03-20T08:48:45.986Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;R语言基础&quot;&gt;&lt;a href=&quot;#R语言基础&quot; class=&quot;headerlink&quot; title=&quot;R语言基础&quot;&gt;&lt;/a&gt;R语言基础&lt;/h2&gt;&lt;h4 id=&quot;基本命令：&quot;&gt;&lt;a href=&quot;#基本命令：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python数据挖掘</title>
+    <link href="https://example.com/2022/03/20/shujuwajue/index/"/>
+    <id>https://example.com/2022/03/20/shujuwajue/index/</id>
+    <published>2022-03-20T02:35:25.000Z</published>
+    <updated>2022-03-20T09:16:09.664Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;数据挖掘&quot;&gt;&lt;a href=&quot;#数据挖掘&quot; class=&quot;headerlink&quot; title=&quot;数据挖掘&quot;&gt;&lt;/a&gt;数据挖掘&lt;/h2&gt;&lt;h4 id=&quot;创建列表乱序输出：&quot;&gt;&lt;a href=&quot;#创建列表乱序输出：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据采集</title>
+    <link href="https://example.com/2022/03/19/shujucaiji/index/"/>
+    <id>https://example.com/2022/03/19/shujucaiji/index/</id>
+    <published>2022-03-19T02:30:24.000Z</published>
+    <updated>2022-03-21T07:53:22.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h4 id=&quot;Requests原理-：&quot;&gt;&lt;a href=&quot;#Requests原理-：&quot; class=&quot;headerlink&quot; title=&quot;Requests原理 ：&quot;&gt;&lt;/a&gt;Requests原理 ：&lt;/h4&gt;&lt;figure</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Python基础</title>

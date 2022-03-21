@@ -71,7 +71,7 @@
        
   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: categories</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br></pre></td></tr></table></figure>
 
-<h1 id="Python基础"><a href="#Python基础" class="headerlink" title="Python基础"></a>Python基础</h1><p><a target="_blank" rel="noopener" href="http://hexo.io/docs/">python爬虫与数据采集</a></p>
+<h1 id="Python基础"><a href="#Python基础" class="headerlink" title="Python基础"></a>Python基础</h1><p><a target="_blank" rel="noopener" href="https://siamesecats.github.io/2022/02/13/Git/index/">python爬虫与数据采集</a></p>
 <h3 id="常用函数"><a href="#常用函数" class="headerlink" title="常用函数"></a>常用函数</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">eval() 去除最外层引号，也可以在此函数内部进行 数字运算</span><br><span class="line">complex() 用来生成复数</span><br><span class="line">abs() 绝对值计算</span><br><span class="line">divmod() 同时计算两个数字的整数商和余数</span><br><span class="line">pow() 计算幂，第一个参数为底数，第二个参数为指数</span><br><span class="line">round() 进行四舍五入</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h3 id="字符串常用方法"><a href="#字符串常用方法" class="headerlink" title="字符串常用方法"></a>字符串常用方法</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">str.format() 字符串格式化</span><br><span class="line">str.count() 计算算该字符出现的次数</span><br><span class="line">str.index() 查询字符第一次出现的索引</span><br><span class="line">str.capitalize() 首字母大写</span><br><span class="line">str.title() 每个单词的首字母大写</span><br><span class="line">str.lower() 将字符串中所有的大写转换为小写</span><br><span class="line">str.upper() 将string中小写字母转换为大写</span><br><span class="line">str.swapcase() 将string字母大小写翻转</span><br><span class="line">str.split() 分割字符串，默认空格分割</span><br><span class="line">str.replace(old,new) 将old字符串替换为new</span><br><span class="line">str.center(width,fillchar) 第一个参数为返回指定的字符长度。第二个参数为使用指定字符填充</span><br><span class="line">str.strip(chars) 删除str字符串中指定的参数</span><br><span class="line">str.join() 使用指定字符串拼接</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -277,6 +277,31 @@
 <td></td>
 </tr>
 </tbody></table>
+<h4 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作:"></a>文件操作:</h4><p>Python文件的打开或创建可以使用函数open()。该函数可以指定处理模式，设置打开的文件为只读、只写或可读写状态。open()的声明如下所示。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open(file, mode=&#x27;r&#x27;, buffering=-1, encoding=None,errors=None, newline=None, closefd=True, opener=None)</span><br></pre></td></tr></table></figure>
+
+<p>​    ·参数file是被打开的文件名称。如果文件file不存在，open()将创建名为name的文件，然后再打开该文件。</p>
+<p>​    ·参数mode是指文件的打开模式。</p>
+<p>​    ·参数buffering设置缓存模式。0表示不缓存；1表示行缓冲；如果大于1则表示缓冲区的大小，以字节为单位。</p>
+<p>​    ·open()返回1个file对象，file对象可以对文件进行各种操作。</p>
+<p>​    ·encoding: 编码格式，一般使用utf-8</p>
+<p>​    ·errors: 报错级别</p>
+<p>​    ·newline: 区分换行符</p>
+<p>​    ·closefd: 传入的file参数类型</p>
+<p>​    ·opener：自定义打开文件方式(使用默认None)</p>
+<p>​    <strong>文件的打开模式|mode参数：</strong></p>
+<p>​    r：以只读的方式打开文件</p>
+<p>​    r+：以读写的方式打开文件</p>
+<p>​    w：以写入的方式打开文件。先删除文件原有的内容，再重新写入新闻的内容。如果文件不存在，则创建1个新的文件</p>
+<p>​    w+：以读写的方式打开文件，先删除文件原有的内容，再重新写入新闻的内容，如果文件不存在，则创建1个新文件</p>
+<p>​    a：以写入的方式打开文件，在文件你的末尾追加新的内容。如果文件不存在，则创建1个新的文件</p>
+<p>​    a+：以读写的方式打开文件，在文件的末尾追加新的内容，如果文件不存在，则创建1个新的文件</p>
+<p>​    b：以二进制模式打开文件，可与r、w、a、+结合使用，注意：对于图片、视频等文件必须使用“b”的模式读写。</p>
+<p>​    rb：以二进制格式打开一个文件，用于只读</p>
+<p>​    wb：以二进制格式打开一个文件，用于只写</p>
+<p>​    ab：以二进制格式打开一个文件，用于追加</p>
+<p>​    wb+:以二进制格式打开一个文件，用于读写</p>
+<p>​    u：支持所有的换行符号。“\r”、“\n”、“\r\n”都表示换行</p>
  
       <!-- reward -->
       
